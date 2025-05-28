@@ -1,17 +1,20 @@
-const questionToggle = document.querySelectorAll('.question-panel');
-const minusToggle = document.querySelector('icon-minus');
+const questionToggle = document.querySelector('.question-panel');
 
 
-for (const questions of questionToggle) {
-const answer = document.querySelector('.answer');
 
-  questions.addEventListener('click', function(){
+  const answer = document.querySelector('.answer');
+  
+  
+  
+
+  questionToggle.addEventListener('click', function(){
+    for (let i = 0; i < answer.length; i++) {
+      answer[i].style.display = 'none'
+    }
    if ( answer.style.display === 'none') {
     answer.style.display = 'block';
    } else {
     answer.style.display = 'none'
    }
 })
-
-}
 

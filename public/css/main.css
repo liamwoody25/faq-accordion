@@ -74,12 +74,12 @@ header {
 }
 
 .icon-minus {
-  display: block;
+  display: none;
   transition: 2s;
 }
 
 
-.icon-plus{display: none;}
+.icon-plus{display: block;}
 
 
 hr {
