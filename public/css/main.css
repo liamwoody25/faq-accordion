@@ -58,9 +58,9 @@ header {
 
 .question{
   cursor: pointer;
-  gap: 24px;
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-between;
   background-color: #fff;
   border: 0;
 }
@@ -69,9 +69,7 @@ header {
   width: 70%;
 }
 
-.answer {
-  gap: 24px;
-}
+
 
 
 .answer p {

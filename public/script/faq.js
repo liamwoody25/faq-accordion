@@ -1,13 +1,14 @@
 const questionToggle = document.querySelector('.question');
 
-
-
+function questionBtn() {
+ 
+}
 
 questionToggle.addEventListener('click', function(){
-  const question = document.querySelector('.question');
-  
- 
-  if (question.style.display === 'block') {
-     answer.style.display = 'none'
-  }
+  const answer = document.querySelector('.answer');
+   if ( question.style.display === 'none') {
+    question.style.display = 'block';
+   } else {
+    answer.style.display === 'none'
+   }
 })
