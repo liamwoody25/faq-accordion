@@ -12,14 +12,14 @@ h2 {
 }
 
 h3 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   margin: 0;
 }
 
 p {
   margin: 0px 0px ;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -57,27 +57,37 @@ header {
 }
 
 .question{
+  align-items: center;
   cursor: pointer;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #fff;
   border: 0;
+  margin-bottom: 20px;
 }
 
 .question h3 {
-  width: 70%;
+  font-weight: 600;
+  width: 75%;
+  line-height: 20px;
 }
 
-.icon-minus {display: block;}
+.icon-minus {
+  display: block;
+  transition: 2s;
+}
+
+
 .icon-plus{display: none;}
 
 
-
+hr {
+  color: gray;
+}
 
 .answer p {
   margin-bottom: 20px;
-  margin-top: 24px;
   font-size: 14px;
   color: #8B6990;
   font-weight: 400;
