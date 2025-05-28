@@ -56,7 +56,7 @@ header {
   display: flex;
 }
 
-.question{
+.question-panel{
   align-items: center;
   cursor: pointer;
   display: flex;

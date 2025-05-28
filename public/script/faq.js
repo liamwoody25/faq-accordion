@@ -1,4 +1,5 @@
 const questionToggle = document.querySelectorAll('.question');
+const minusToggle = document.querySelector('icon-minus');
 
 
 for (const questions of questionToggle) {
