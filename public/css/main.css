@@ -18,7 +18,7 @@ h3 {
 }
 
 p {
-  margin: 0;
+  margin: 0px 0px ;
   font-size: 16px;
   font-weight: 600;
 }
@@ -69,10 +69,14 @@ header {
   width: 70%;
 }
 
+.icon-minus {display: block;}
+.icon-plus{display: none;}
+
 
 
 
 .answer p {
+  margin-bottom: 20px;
   margin-top: 24px;
   font-size: 14px;
   color: #8B6990;
